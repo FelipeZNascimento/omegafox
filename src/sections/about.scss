@@ -1,0 +1,30 @@
+@import '../styling/global.scss';
+
+.about-container {
+    @extend %section-container;
+    background-color: $bg_color1;
+    color: $font_color1;
+}
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+.flag {
+    height: 1.2em;
+    vertical-align: bottom;
+}
+
+@media screen and (min-width:768px) {
+    .about-content {
+        width: 768px;
+    }
+}

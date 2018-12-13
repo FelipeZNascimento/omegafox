@@ -1,0 +1,45 @@
+@import 'variables';
+
+@font-face {
+    font-family: 'Berlin';
+    src: local('Berlin'), url(../fonts/BRLNSR.TTF) format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $roboto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.title {
+    font-size: $title_size;
+    font-family: $berlin;
+}
+
+%section-container {
+    font-family: $roboto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 5px;
+    @media screen and (min-width:768px) {
+        padding: 0 20px;
+    }
+
+}
+
+.c2 {
+    width: 50%;
+    float: left;
+}
+.c4 {
+    width: 25%;
+    float: left;
+}

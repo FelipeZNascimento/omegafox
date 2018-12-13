@@ -1,0 +1,33 @@
+@import '../styling/global.scss';
+
+.header-container {
+    height: 100vh;
+    background-image: url(../img/bg_desktop.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-fox {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    transition: opacity 1s;
+}
+
+.menu-fox:hover {
+    opacity: 1;
+}
+
+.image-mask {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    flex-grow: 1;
+    background-color: rgba(0,0,0,0.4);
+    font-family: $berlin;
+    font-size: 60px;
+}

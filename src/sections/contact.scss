@@ -1,0 +1,7 @@
+@import '../styling/global.scss';
+
+.contact-container {
+    @extend %section-container;
+    background-color: $bg_color1;
+    color: $font_color1;
+}

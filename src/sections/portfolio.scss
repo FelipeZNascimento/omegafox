@@ -1,0 +1,7 @@
+@import '../styling/global.scss';
+
+.portfolio-container {
+    @extend %section-container;
+    background-color: $bg_color2;
+    color: $font_color2;
+}

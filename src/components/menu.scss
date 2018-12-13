@@ -1,0 +1,62 @@
+@import '../styling/global.scss';
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+.menu-container {
+    height: 70px;
+    width: 100%;
+    font-family: $berlin;
+    font-size: 18px;
+    background-image: url(../img/menu_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-container a {
+    color: white;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.menu-container a:hover {
+    opacity: 1;
+}
+
+.menu-container a:hover, a:not(:hover){
+    transition: opacity 0.3s;
+}
+
+.left-side {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middle {
+    width: 10%;
+}
+.right-side {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-side span {
+    flex-grow: 1;
+    text-align: center;
+}
+
+@media screen and (min-width:768px) {
+    .menu-container {
+        font-size: 24px;
+    }
+}

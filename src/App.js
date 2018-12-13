@@ -1,19 +1,17 @@
 import React, { Component } from 'react';
-// import logo from './logo.svg';
-import './App.scss';
 import Header from './sections/header.js';
+import About from './sections/about.js';
+import Portfolio from './sections/portfolio.js';
+import Contact from './sections/contact.js';
 
 class App extends Component {
     render() {
         return (
             <div>
                 <Header />
-                <body>
-                    ola
-                </body>
-                <footer>
-                    tchau
-                </footer>
+                <About />
+                <Portfolio />
+                <Contact />
             </div>
         );
     }
