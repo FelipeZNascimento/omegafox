@@ -1,0 +1,166 @@
+@import '_variables';
+
+.section-container {
+    font-family: $roboto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 5px;
+    @media screen and (min-width:768px) and (max-width:1080px) {
+        padding: 20px 200px;
+    }
+    @media screen and (min-width:1080px) {
+        padding: 20px 300px;
+    }
+}
+
+.section-content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+
+    @media screen and (min-width:768px) {
+        width: 768px;
+        flex-direction: row;
+    }
+}
+
+.row-oriented {
+    display: flex;
+    flex-direction: column;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $roboto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.anchor {
+    position: relative;
+    visibility:hidden;
+}
+ 
+a {
+    text-decoration: none;
+    opacity: 0.8;
+    color: white;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+a:hover, a:not(:hover){
+    transition: opacity 0.3s;
+}
+
+.beige-bg {
+    background-color: $bg_color1;
+    color: $font_color1;
+
+    a {
+        color: maroon;
+        font-weight: bold;
+    }
+}
+
+.blue-bg {
+    background-color: $bg_color2;
+    color: $font_color2;
+
+    a {
+        color: darkorange;
+    }
+}
+
+.title {
+    font-size: $title_size;
+    font-family: $berlin;
+    padding: 0;
+    margin: 0;
+}
+
+.sub-title {
+    font-size: $sub_title_size;
+    font-family: $berlin;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.section-column {
+    flex-basis: 0;
+    flex-grow: 1;
+    text-align: center;
+    padding: 0 5px;
+}
+
+.hidden {
+    opacity: 0 !important;
+    visibility: hidden;
+}
+
+@media screen and (min-width:768px) {
+    .section-column {
+        text-align: justify;
+    }
+}
+
+.quote {
+    font-size: 14px;
+    background-color: rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+.quote p {
+    padding: 0;
+    margin: 0;
+}
+blockquote {
+    quotes: "\201C""\201D""\2018""\2019";
+    padding: 0;
+    margin: 0;
+    font-style: italic;
+    p {
+        display: inline;
+    }
+}
+
+blockquote:before {
+    color: $bg_color2;
+    content: open-quote;    
+    font-size: 3em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+    
+}
+
+blockquote:after {
+    color:$bg_color2;
+    content:close-quote;
+    font-size:3em;
+    line-height:0.1em;
+    margin-right:0.25em;
+    vertical-align:-0.4em;
+}

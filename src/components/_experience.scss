@@ -1,0 +1,31 @@
+.left-column {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.right-column {
+    width: 66%;
+    float: left;
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    .left-column {
+        width: 33%;
+    }
+    .right-column {
+        display: initial;
+    }
+
+    .right-column, .left-column {
+        text-align: justify;
+    }
+    
+}
+
+.experience {
+    display: flex;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    padding: 20px;
+}

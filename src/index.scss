@@ -1,0 +1,15 @@
+@import './styling/global.scss';
+
+// Import all sections' stylings
+@import './sections/about.scss';
+@import './sections/contact.scss';
+@import './sections/header.scss';
+@import './sections/portfolio.scss';
+@import './sections/resume.scss';
+
+// Import all components' stylings
+@import './components/menu.scss';
+@import './components/skill_tag.scss';
+@import './components/experience.scss';
+@import './components/sidebar.scss';
+@import './components/info_image.scss';

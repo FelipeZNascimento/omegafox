@@ -1,0 +1,97 @@
+.no-display {
+    display: none;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.top-bar {
+    transition: opacity 0.5s;
+}
+
+.menu-container {
+    width: 100%;
+    font-family: $berlin;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fox-bg {
+    height: 70px;
+    background-image: url(img/menu_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.black-bg {
+    height: 50px;
+    background-color: rgba(0,0,0,0.8);
+
+}
+
+.menu-container a {
+    color: white;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.menu-container a:hover {
+    opacity: 1;
+}
+
+.menu-container a:hover, a:not(:hover){
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+.left-side {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middle {
+    width: 10%;
+}
+.right-side {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span {
+        flex-grow: 1;
+        text-align: center;
+    }
+}
+
+.full-menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span {
+        flex-grow: 1;
+        text-align: center;
+    }
+}
+
+.menu-fox {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    transition: opacity 1s;
+}
+
+.menu-fox:hover {
+    opacity: 1;
+}
+@media screen and (min-width:768px) {
+    .menu-container {
+        font-size: 24px;
+    }
+}

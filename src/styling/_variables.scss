@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+@font-face {
+    font-family: 'Berlin';
+    src: local('Berlin'), url(fonts/BRLNSR.TTF) format('truetype');
+}
+
 $roboto: 'Roboto', sans-serif;
 $berlin: 'Berlin', sans-serif;
 $bg_color1: #d0d0c2;
@@ -9,4 +14,5 @@ $bg_color2: #172f41;
 $font_color2: white;
 
 $title_size: 36px;
+$sub_title_size: 24px;
 $text_size: 16px;

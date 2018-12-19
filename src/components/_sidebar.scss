@@ -1,0 +1,45 @@
+.sidebar-container {
+    position: fixed;
+    background-color: rgba(0,0,0,0.7);
+    top: 50%;
+    right: 0;
+    transform: translate(0%, -50%);
+    transition: opacity 0.5s;
+    z-index: 9999;
+}
+
+.sidebar-content {
+    text-align: center;
+    ul > li {
+        height: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+    }
+    
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    li a {
+        color: white;
+    }
+}
+.fox {
+    opacity: 0.2;
+    padding: 5px;
+}
+.fox:hover {
+    opacity: 1;
+}
+.fox:hover, .fox:not(hover) {
+    transition: opacity 0.3s;
+}
+
+.is-current {
+    background-color: rgba(0,0,0,0.5);
+}

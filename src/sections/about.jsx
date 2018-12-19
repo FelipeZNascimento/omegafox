@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
-import './about.scss';
 import brazilFlag from '../img/brazil_flag.png';
 
 class About extends Component {
     render () {
         return (
-            <div id="about" className="about-container">
+            <div id="about" className="section-container blue-bg">
                 <div className="title">
-                    <p>About Felipe</p>
+                    <p>about Felipe</p>
                 </div>
-                <div className="about-content">
-                    <div className="column">
+                <div className="section-content">
+                    <div className="section-column">
                         <p>
                             <b>Name</b><br/>
                             Felipe Zanon do Nascimento
@@ -24,13 +23,13 @@ class About extends Component {
                             <img src={brazilFlag} className="flag" alt="Brazil' Flag" /> Curitiba, Brazil
                         </p>
                     </div>
-                    <div className="column">
-                        <p>Team player and resourceful webdeveloper based in Brazil looking for opportunities abroad - Europe and Canada specially.</p>
-                        <p>Interested in both front and back end applications, I fully enjoy learning new technologies and JS frameworks.<br/>
+                    <div className="section-column">
+                        <p><b>Team player</b> and resourceful webdeveloper based in Brazil looking for opportunities abroad - Europe and Canada specially.</p>
+                        <p>Interested in both <b>front and back end</b> applications, I love learning new technologies and <b>JS frameworks</b> (as you can see in my <a href="#skills">skill list</a>).<br/>
                         I love making the most out of a mockup and delivering the closest to what designers initially imagined - receiving and providing feedback as the project goes.</p>
                     </div>
                 </div>
-            </div>            
+            </div>
         )
     }
 }

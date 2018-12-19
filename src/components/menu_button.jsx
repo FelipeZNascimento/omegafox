@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import '../sections/header.scss';
 
 class MenuButton extends Component {
     render () {
