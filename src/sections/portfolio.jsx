@@ -7,7 +7,7 @@ import PortfolioImage3 from '../img/work3.jpg';
 
 let portfolioList = [
     {id:0, title: "Bolão NFL", description: "NFL pick'em betting platform built on AngularJS frontend, PHP backend, MySQL DB. 5+ years online, 25+ players, yearly updates. Signup and login systems, live results via scraper, rankings and records automatically updated, public and private REST APIs.", image_path: PortfolioImage3, link: "https://www.omegafox.me/bolaonfl/"},
-    {id:1, title: "Wedding Website", description: "Wedding website developed on React.", image_path: PortfolioImage2, link: "http://www.viero.ml"},
+    {id:1, title: "Wedding Website", description: "Wedding website developed on React.", image_path: PortfolioImage2, link: "http://www.roevi.ml"},
     {id:2, title: "Marvel Heroes", description: "Built on AngularJS, this website was developed to consume Marvel Comic Books' API. Search, pagination, details internal page.", image_path: PortfolioImage1, link: "https://www.omegafox.me/codehero/"}
 ]
 

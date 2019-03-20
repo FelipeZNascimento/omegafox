@@ -15,8 +15,7 @@ class Menu extends Component {
         const renderButtons = menuButtons.map((button, id) => {
             return (
                 <MenuButton key={button.id} link={button.link} description={button.description} />
-            )
- 
+            ) 
         });
 
         return (    
@@ -28,7 +27,6 @@ class Menu extends Component {
                     <div className={this.props.mobile ? 'no-display' : 'middle'}>&nbsp;</div>
                     <img className="menu-fox" src={menuFox} alt="Omega Fox logo" />
                     <div className={this.props.mobile ? 'full-menu' : 'right-side'}>
-                        <img className="menu-fox" src={menuFox} alt="Omega Fox logo" />
                         {renderButtons}
                     </div>
                 </div>

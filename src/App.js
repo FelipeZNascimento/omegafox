@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './index.scss';
 import Header from './sections/header.jsx';
 import Sidebar from './components/sidebar.jsx';
 import About from './sections/about.jsx';

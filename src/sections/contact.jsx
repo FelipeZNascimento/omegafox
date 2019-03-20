@@ -40,6 +40,10 @@ class Contact extends Component {
                         </a>
                     </div>
                 </div>
+                <p className="center-align">
+                    This website was designed and developed by me using React framework and the code is hosted at my <a href="https://github.com/Sharpion/omegafox">github repository</a>. <br />
+                    Feel free to use it as a model or inspiration for your own website - but it would be nice if you let me know. ;)
+                </p>
             </div>            
         )
     }

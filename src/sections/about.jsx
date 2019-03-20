@@ -24,8 +24,8 @@ class About extends Component {
                         </p>
                     </div>
                     <div className="section-column">
-                        <p><b>Team player</b> and resourceful webdeveloper based in Brazil looking for opportunities abroad - Europe and Canada specially.</p>
-                        <p>Interested in both <b>front and back end</b> applications, I love learning new technologies and <b>JS frameworks</b> (as you can see in my <a href="#skills">skill list</a>).<br/>
+                        <p><b>Team player</b> and resourceful web developer based in Brazil looking for opportunities abroad - Europe and Canada specially.</p>
+                        <p>Interested in both <b>front and back end</b> applications, I really enjoy learning new technologies and <b>JS frameworks</b> (as you can see in my <a href="#skills">skill list</a>).<br/>
                         I love making the most out of a mockup and delivering the closest to what designers initially imagined - receiving and providing feedback as the project goes.</p>
                     </div>
                 </div>
